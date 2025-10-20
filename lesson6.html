@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson 6: Dimensions and Pseudo-Classes</title>
+  <link rel="stylesheet" href="assets/css/scara.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content-box">
+
+      <!-- Header -->
+      <header id="dark-navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <img src="assets/images/cup.gif" alt="Cat in Trophy" />
+          </div>
+          <nav class="navbar-menu">
+            <a href="index.html" class="nav-item">Personal Information</a>
+            <a href="ap.html" class="nav-item">AP Content</a>
+            <a href="ict.html" class="nav-item active">ICT Content</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <div class="hero">
+        <h1>A WANDERER'S<br />JOURNEY</h1>
+        <h2>My Second Quarter E-Portfolio</h2>
+      </div>
+
+      <!-- Subnavbar -->
+      <nav class="lesson-subnavbar">
+        <ul>
+          <li><a href="Lesson1.html">Lesson 1</a></li>
+          <li><a href="Lesson2.html">Lesson 2</a></li>
+          <li><a href="Lesson3.html">Lesson 3</a></li>
+          <li><a href="Lesson4.html">Lesson 4</a></li>
+          <li><a href="Lesson5.html">Lesson 5</a></li>
+          <li><a href="Lesson6.html" class="active">Lesson 6</a></li>
+        </ul>
+      </nav>
+
+      <!-- Lesson Content -->
+      <section class="lesson-detail">
+        <h2>Lesson 6: Dimensions and Pseudo-Classes</h2>
+        <p>CSS can control visibility, width, and height of elements. Pseudo-classes like <code>:hover</code> and <code>:active</code> add interactivity. Below is a demo showing both.</p>
+      </section>
+
+      <!-- Code Demo Section -->
+      <section class="code-demo">
+        <div class="code-box">
+          <h3>Sample Code</h3>
+          <pre>
+&lt;style&gt;
+  .hidden {
+    visibility: hidden;
+  }
+  .box {
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  a:link { color: red; }
+  a:visited { color: black; }
+  a:hover { color: green; }
+  a:active { color: blue; }
+&lt;/style&gt;
+
+&lt;div class="box"&gt;
+  This box is visible.
+  &lt;span class="hidden"&gt;This span is hidden.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;a href="#"&gt;Hover over me&lt;/a&gt;
+          </pre>
+        </div>
+        <div class="output-box">
+          <h3>Output Preview</h3>
+          <div class="demo-display">
+            <div class="box">
+              This box is visible.
+              <span class="hidden">This span is hidden.</span>
+            </div>
+            <a href="#">Hover over me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="custom-footer">
+        <div class="contact-note">
+          <p>
+            For other questions and comments email info at
+            <span class="fake-email">cierapineda.lpsci@gmail.com</span><br />
+            <em>(fyi, this is just for show, please don’t actually email me-- Miss pa email po ng grade, ty po)</em>
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Subject" />
+          <textarea placeholder="Message" rows="5

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lesson 4: CSS Classes and Selectors</title>
+  <link rel="stylesheet" href="assets/css/scara.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content-box">
+
+      <!-- Header -->
+      <header id="dark-navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <img src="assets/images/cup.gif" alt="Cat in Trophy" />
+          </div>
+          <nav class="navbar-menu">
+            <a href="index.html" class="nav-item">Personal Information</a>
+            <a href="ap.html" class="nav-item">AP Content</a>
+            <a href="ict.html" class="nav-item active">ICT Content</a>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero -->
+      <div class="hero">
+        <h1>A WANDERER'S<br />JOURNEY</h1>
+        <h2>My Second Quarter E-Portfolio</h2>
+      </div>
+
+      <!-- Subnavbar -->
+      <nav class="lesson-subnavbar">
+        <ul>
+          <li><a href="Lesson1.html">Lesson 1</a></li>
+          <li><a href="Lesson2.html">Lesson 2</a></li>
+          <li><a href="Lesson3.html">Lesson 3</a></li>
+          <li><a href="Lesson4.html" class="active">Lesson 4</a></li>
+          <li><a href="Lesson5.html">Lesson 5</a></li>
+          <li><a href="Lesson6.html">Lesson 6</a></li>
+        </ul>
+      </nav>
+
+      <!-- Lesson Content -->
+      <section class="lesson-detail">
+        <h2>Lesson 4: CSS Classes and Selectors</h2>
+        <p>CSS classes allow you to apply styles to specific elements using reusable names. You can target any HTML tag with a class, or be more specific by combining the tag and class name.</p>
+      </section>
+
+      <!-- Code Demo Section -->
+      <section class="code-demo">
+        <div class="code-box">
+          <h3>Sample Code</h3>
+          <pre>
+&lt;style&gt;
+  p.note {
+    background-color: lightyellow;
+    border-left: 4px solid orange;
+    padding: 10px;
+    font-style: italic;
+  }
+&lt;/style&gt;
+
+&lt;p&gt;This paragraph has no class.&lt;/p&gt;
+&lt;p class="note"&gt;This paragraph uses the "note" class.&lt;/p&gt;
+          </pre>
+        </div>
+        <div class="output-box">
+          <h3>Output Preview</h3>
+          <div class="demo-display">
+            <p>This paragraph has no class.</p>
+            <p class="note">This paragraph uses the "note" class.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="custom-footer">
+        <div class="contact-note">
+          <p>
+            For other questions and comments email info at
+            <span class="fake-email">cierapineda.lpsci@gmail.com</span><br />
+            <em>(fyi, this is just for show, please don’t actually email me-- Miss pa email po ng grade, ty po)</em>
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Subject" />
+          <textarea placeholder="Message" rows="5"></textarea>
+          <button type="submit">SUBMIT</button>
+        </form>
+
+        <a href="#top" class="back-to-top">BACK TO TOP &gt;</a>
+
+        <div class="footer-credits">
+          <p>Inspired by MY husband &lt;3</p>
+          <p>This website was created by <strong>Allison Ciera Pineda</strong><br />Thank you for checking this out!</p>
+          <img src="assets/images/wander.gif" alt="Character Icon" class="footer-icon" />
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+</html>
