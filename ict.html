@@ -1,300 +1,1397 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ICT Lessons</title>
-  <link rel="stylesheet" href="assets/css/scara.css" />
-  <link rel="stylesheet" href="assets/css/ict-lessons.css" />
-  <link rel="stylesheet" href="assets/css/toggle-sections.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICT Lessons</title>
+    <link rel="stylesheet" href="assets/css/scara.css" />
+
 </head>
 
 <body>
-  <div id="wrapper">
-    <div id="content-box">
+    <!-- Floating ICT Sidebar -->
+    <aside class="floating-ict-sidebar">
+        <h3>ICT Quarters</h3>
+        <a href="#q1">1st Quarter</a>
+        <a href="#q2">2nd Quarter</a>
+        <a href="#q3">3rd Quarter</a>
+        <a href="#q4">4th Quarter</a>
+    </aside>
 
-      <!-- Navbar -->
-      <header id="dark-navbar">
+    <!-- Navbar -->
+    <header id="dark-navbar">
         <div class="navbar-container">
-          <div class="navbar-logo">
-            <img src="assets/images/cup.gif" alt="Cat in Trophy" />
-          </div>
-          <nav class="navbar-menu">
-            <a href="index.html" class="nav-item">Personal Information</a>
-            <a href="ap.html" class="nav-item">AP Content</a>
-            <a href="ict.html" class="nav-item active">ICT Content</a>
-          </nav>
-        </div>
-      </header>
-
-      <!-- Hero -->
-      <div class="hero">
-        <h1>A WANDERER'S<br />JOURNEY</h1>
-        <h2>My Second Quarter E-Portfolio</h2>
-      </div>
-
-      <!-- Section Toggle Tabs -->
-      <div class="section-toggle-tabs">
-        <input type="radio" name="section-toggle" id="show-lessons" checked>
-        <label for="show-lessons">ICT Lessons</label>
-
-        <input type="radio" name="section-toggle" id="show-events">
-        <label for="show-events">School Events</label>
-
-        <div class="toggle-panel" id="panel-lessons">
-          <!-- ICT Lessons Section -->
-          <section id="ict-lessons">
-            <h2>ICT Lessons</h2>
-            <div class="lesson-gallery">
-              <a href="Lesson1.html" class="lesson-card">
-                <img src="assets/images/sm1.jpg" alt="Lesson 1" />
-                <h4>Lesson 1: Introduction to ICT</h4>
-              </a>
-              <a href="Lesson2.html" class="lesson-card">
-                <img src="assets/images/sm2.jpg" alt="Lesson 2" />
-                <h4>Lesson 2: Digital Citizenship</h4>
-              </a>
-              <a href="Lesson3.html" class="lesson-card">
-                <img src="assets/images/sm3.jpg" alt="Lesson 3" />
-                <h4>Lesson 3: Online Safety</h4>
-              </a>
-              <a href="Lesson4.html" class="lesson-card">
-                <img src="assets/images/sm4.jpg" alt="Lesson 4" />
-                <h4>Lesson 4: Productivity Tools</h4>
-              </a>
-              <a href="Lesson5.html" class="lesson-card">
-                <img src="assets/images/sm5.jpg" alt="Lesson 5" />
-                <h4>Lesson 5: Multimedia Basics</h4>
-              </a>
-              <a href="Lesson6.html" class="lesson-card">
-                <img src="assets/images/sm6.jpg" alt="Lesson 6" />
-                <h4>Lesson 6: Coding Fundamentals</h4>
-              </a>
+            <div class="navbar-logo">
+                <img src="assets/images/cup.gif" alt="Cat in Trophy" />
             </div>
-          </section>
+            <nav class="navbar-menu">
+                <a href="index.html" class="nav-item">Personal Information</a>
+                <a href="ap.html" class="nav-item">AP Content</a>
+                <a href="ict.html" class="nav-item active">ICT Content</a>
+                <a href="events.html" class="nav-item">School Events</a>
+            </nav>
         </div>
+    </header>
 
-        <div class="toggle-panel" id="panel-events">
-  <!-- School Events Section -->
-  <section id="school-events">
-    <h2 style="text-align:center; color:#2c3a5e; margin-bottom:30px;">School Events</h2>
+    <div id="wrapper">
+        <div id="content-box">
 
-    <div class="event-container">
+            <!-- Hero -->
+            <div class="hero">
+                <h1>A WANDERER'S<br />JOURNEY</h1>
+                <h2>My Grade 9 E-Portfolio</h2>
+            </div>
 
-      <!-- Event 1 -->
-      <div class="event-block left-media">
-        <div class="event-media">
-          <img src="assets/images/event1a.jpg" alt="Buwan ng Wika Image 1" />
-          <img src="assets/images/event1b.jpg" alt="Buwan ng Wika Image 2" />
-          <video controls>
-            <source src="assets/videos/event1.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+            <!-- ICT Lessons Section -->
+            <section id="ict-lessons">
+                <div class="ict-layout">
+                    <div class="ict-main">
+                        <!-- 1st Quarter -->
+                        <h2 id="q1">1st Quarter ICT Lessons</h2>
+                        <div class="lesson-gallery">
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson1">
+                                <img src="assets/images/sk1.jpg" alt="Lesson 1" />
+                                <h4>Lesson 1: Introduction to HTML Links</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson2">
+                                <img src="assets/images/sk2.jpg" alt="Lesson 2" />
+                                <h4>Lesson 2: Hyperlinks and Target Attributes</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson3">
+                                <img src="assets/images/sk3.jpg" alt="Lesson 3" />
+                                <h4>Lesson 3: HTML Links and Forms</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson4">
+                                <img src="assets/images/sk4.jpg" alt="Lesson 4" />
+                                <h4>Lesson 4: HTML5 Input Types</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson5">
+                                <img src="assets/images/sk5.jpg" alt="Lesson 5" />
+                                <h4>Lesson 5: Input Elements</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson6">
+                                <img src="assets/images/sk6.jpg" alt="Lesson 6" />
+                                <h4>Lesson 6: Radio Buttons, Checkboxes & Dropdowns</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q1-lesson7">
+                                <img src="assets/images/sk7.jpg" alt="Lesson 7" />
+                                <h4>Lesson 7: Feedback Forms and File Upload</h4>
+                            </a>
+                        </div>
+                        
+                        <!-- 2nd Quarter -->
+                        <h2 id="q2">2nd Quarter ICT Lessons</h2>
+                        <div class="lesson-gallery">
+                            <a href="#" class="lesson-card" data-lesson="q2-lesson1">
+                                <img src="assets/images/sm1.jpg" alt="Lesson 1" />
+                                <h4>Lesson 1: Introduction to CSS</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q2-lesson2">
+                                <img src="assets/images/sm2.jpg" alt="Lesson 2" />
+                                <h4>Lesson 2: Structure of CSS</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q2-lesson3">
+                                <img src="assets/images/sm3.jpg" alt="Lesson 3" />
+                                <h4>Lesson 3: Display Property and Layout</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q2-lesson4">
+                                <img src="assets/images/sm4.jpg" alt="Lesson 4" />
+                                <h4>Lesson 4: CSS Classes and Selectors</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q2-lesson5">
+                                <img src="assets/images/sm5.jpg" alt="Lesson 5" />
+                                <h4>Lesson 5: CSS Selectors</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q2-lesson6">
+                                <img src="assets/images/sm6.jpg" alt="Lesson 6" />
+                                <h4>Lesson 6: Dimensions and Pseudo-Classes</h4>
+                            </a>
+                        </div>
+                        
+                        <!-- 3rd Quarter -->
+                        <h2 id="q3">3rd Quarter ICT Lessons</h2>
+                        <div class="lesson-gallery">
+                            <a href="#" class="lesson-card" data-lesson="q3-lesson1">
+                                <img src="assets/images/s1.jpg" alt="Lesson 1" />
+                                <h4>Lesson 1: Formatting Text with CSS</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q3-lesson2">
+                                <img src="assets/images/s2.jpg" alt="Lesson 2" />
+                                <h4>Lesson 2: Formatting Text with CSS</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q3-lesson3">
+                                <img src="assets/images/s3.jpg" alt="Lesson 3" />
+                                <h4>Lesson 3: Formatting Layout with CSS</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q3-lesson4">
+                                <img src="assets/images/s4.jpg" alt="Lesson 4" />
+                                <h4>Lesson 4: Formatting Border and Table with CSS</h4>
+                            </a>
+                        </div>
+                        
+                        <!-- 4th Quarter -->
+                        <h2 id="q4">4th Quarter ICT Lessons</h2>
+                        <div class="lesson-gallery">
+                            <a href="#" class="lesson-card" data-lesson="q4-lesson1">
+                                <img src="assets/images/k1.jpg" alt="Lesson 1" />
+                                <h4>Lesson 1: JavaScript Introduction</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q4-lesson2">
+                                <img src="assets/images/k2.jpg" alt="Lesson 2" />
+                                <h4>Lesson 2: Where to Place Scripts</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q4-lesson3">
+                                <img src="assets/images/k3.jpg" alt="Lesson 3" />
+                                <h4>Lesson 3: Characteristics of JavaScript</h4>
+                            </a>
+                            <a href="#" class="lesson-card" data-lesson="q4-lesson4">
+                                <img src="assets/images/k4.jpg" alt="Lesson 4" />
+                                <h4>Lesson 4: Events, Popup Boxes & Variables</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </div>
-        <div class="event-qa">
-          <h3>Event 1: Buwan ng Wika</h3>
-
-          <p><strong>Q1:</strong> What is the most important thing I learned from the event?</p>
-          <p><strong>A:</strong> I realized that our language is not just a way to speak, but a symbol of our identity and pride as Filipinos. It connects us to our history and unites us as a nation.</p>
-
-          <p><strong>Q2:</strong> How can I apply what I learned in real-life situations?</p>
-          <p><strong>A:</strong> I can use Filipino more often and encourage others to embrace it, showing pride in our culture even in modern settings.</p>
-
-          <p><strong>Q3:</strong> Did I actively participate in the event? How?</p>
-          <p><strong>A:</strong> Yes, I helped decorate our classroom with traditional Filipino symbols and joined the performance with my classmates.</p>
-
-          <p><strong>Q4:</strong> If I were to teach this topic to a classmate, how would I explain it?</p>
-          <p><strong>A:</strong> I’d say that Buwan ng Wika reminds us to appreciate the beauty of our own language and its role in shaping our identity.</p>
-
-          <p><strong>Q5:</strong> Why is it important to have an event per subject?</p>
-          <p><strong>A:</strong> It gives students a chance to experience learning in creative ways and develop appreciation for different aspects of education.</p>
-        </div>
-      </div>
-
-      <!-- Event 2 -->
-      <div class="event-block right-media">
-        <div class="event-qa">
-          <h3>Event 2: Intramurals</h3>
-
-          <p><strong>Q1:</strong> What is the most important thing I learned from the event?</p>
-          <p><strong>A:</strong> I learned that teamwork, determination, and respect are just as important as skill. Winning isn’t everything; effort and unity matter most.</p>
-
-          <p><strong>Q2:</strong> How can I apply what I learned in real-life situations?</p>
-          <p><strong>A:</strong> I can work better with others in class projects and maintain sportsmanship, even in challenging moments.</p>
-
-          <p><strong>Q3:</strong> Did I actively participate in the event? How?</p>
-          <p><strong>A:</strong> Yes, I joined the cheering group, helped organize our props, and encouraged my teammates throughout the games.</p>
-
-          <p><strong>Q4:</strong> If I were to teach this topic to a classmate, how would I explain it?</p>
-          <p><strong>A:</strong> I’d explain that Intramurals teach discipline, perseverance, and unity — lessons that go beyond the playing field.</p>
-
-          <p><strong>Q5:</strong> Why is it important to have an event per subject?</p>
-          <p><strong>A:</strong> It keeps students engaged and teaches valuable life skills that complement what we learn in class.</p>
-        </div>
-
-        <div class="event-media">
-          <img src="assets/images/event2a.jpg" alt="Intramurals Image 1" />
-          <img src="assets/images/event2b.jpg" alt="Intramurals Image 2" />
-          <video controls>
-            <source src="assets/videos/event2.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
-
-      <!-- Event 3 -->
-      <div class="event-block left-media">
-        <div class="event-media">
-          <img src="assets/images/event3a.jpg" alt="Science Month Image 1" />
-          <img src="assets/images/event3b.jpg" alt="Science Month Image 2" />
-          <video controls>
-            <source src="assets/videos/event3.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="event-qa">
-          <h3>Event 3: Science Month</h3>
-
-          <p><strong>Q1:</strong> What is the most important thing I learned from the event?</p>
-          <p><strong>A:</strong> I learned that science is everywhere — in nature, technology, and even in our daily routines. It helps us understand the world around us.</p>
-
-          <p><strong>Q2:</strong> How can I apply what I learned in real-life situations?</p>
-          <p><strong>A:</strong> I can be more curious and observant, ask questions, and use scientific thinking to solve problems logically.</p>
-
-          <p><strong>Q3:</strong> Did I actively participate in the event? How?</p>
-          <p><strong>A:</strong> Yes, I assisted my group with our science exhibit and shared ideas to make our project creative and informative.</p>
-
-          <p><strong>Q4:</strong> If I were to teach this topic to a classmate, how would I explain it?</p>
-          <p><strong>A:</strong> I’d tell them that Science Month is a celebration of discovery, innovation, and curiosity — things that make life more meaningful.</p>
-
-          <p><strong>Q5:</strong> Why is it important to have an event per subject?</p>
-          <p><strong>A:</strong> Because it allows us to explore subjects more deeply and relate them to real-life experiences in a fun way.</p>
-        </div>
-      </div>
-
-      <!-- Event 4 -->
-      <div class="event-block right-media">
-        <div class="event-qa">
-          <h3>Event 4: Araling Panlipunan Month</h3>
-
-          <p><strong>Q1:</strong> What is the most important thing I learned from the event?</p>
-          <p><strong>A:</strong> I learned that understanding our history helps us appreciate our culture and the struggles that shaped who we are today.</p>
-
-          <p><strong>Q2:</strong> How can I apply what I learned in real-life situations?</p>
-          <p><strong>A:</strong> I can be more aware of social issues, respect different beliefs, and contribute positively to my community.</p>
-
-          <p><strong>Q3:</strong> Did I actively participate in the event? How?</p>
-          <p><strong>A:</strong> Yes, as an AP club member, I helped set up the art exhibit. I also acted as a runner for the quizbee.</p>
-
-          <p><strong>Q4:</strong> If I were to teach this topic to a classmate, how would I explain it?</p>
-          <p><strong>A:</strong> I’d explain that Araling Panlipunan Month helps us value our roots and understand how history influences the present.</p>
-
-          <p><strong>Q5:</strong> Why is it important to have an event per subject?</p>
-          <p><strong>A:</strong> It inspires students to engage with learning beyond the classroom and feel connected to the world around them.</p>
-        </div>
-
-        <div class="event-media">
-          <img src="assets/images/event4a.jpg" alt="Araling Panlipunan Month Image 1" />
-          <img src="assets/images/event4b.jpg" alt="Araling Panlipunan Month Image 2" />
-          <video controls>
-            <source src="assets/videos/event4.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
-
-      <!-- Event 5 -->
-      <div class="event-block left-media">
-        <div class="event-media">
-          <img src="assets/images/event5a.jpg" alt="Teacher's Day Image 1" />
-          <img src="assets/images/event5b.jpg" alt="Teacher's Day Image 2" />
-          <video controls>
-            <source src="assets/videos/event5.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div class="event-qa">
-          <h3>Event 5: Teacher’s Day</h3>
-
-          <p><strong>Q1:</strong> What is the most important thing I learned from the event?</p>
-          <p><strong>A:</strong> I realized how much effort teachers put into helping us grow. They deserve our gratitude, not just on Teacher’s Day, but every day.</p>
-
-          <p><strong>Q2:</strong> How can I apply what I learned in real-life situations?</p>
-          <p><strong>A:</strong> I can show appreciation through small gestures like saying thank you or being attentive in class.</p>
-
-          <p><strong>Q3:</strong> Did I actively participate in the event? How?</p>
-          <p><strong>A:</strong> Yes, I helped prepare a short tribute presentation and wrote letters of appreciation for my teachers.</p>
-
-          <p><strong>Q4:</strong> If I were to teach this topic to a classmate, how would I explain it?</p>
-          <p><strong>A:</strong> I’d explain that Teacher’s Day reminds us of how teachers shape our future and why it’s important to value their hard work.</p>
-
-          <p><strong>Q5:</strong> Why is it important to have an event per subject?</p>
-          <p><strong>A:</strong> Because it reminds us that education is built through teamwork — between teachers and students.</p>
-        </div>
-      </div>
-
-      <!-- Event 6 -->
-      <div class="event-block right-media">
-        <div class="event-qa">
-          <h3>Event 6: Cluster Meet</h3>
-
-          <p><strong>Q1:</strong> What is the most important thing I learned from the event?</p>
-          <p><strong>A:</strong> I learned that competition is healthy when done with integrity and respect. It’s about improving yourself, not just winning.</p>
-
-          <p><strong>Q2:</strong> How can I apply what I learned in real-life situations?</p>
-          <p><strong>A:</strong> I can face challenges with confidence, give my best effort, and learn from both victory and failure.</p>
-
-          <p><strong>Q3:</strong> Did I actively participate in the event? How?</p>
-          <p><strong>A:</strong> Yes, I supported my school’s participants and helped in organizing materials for the event.</p>
-
-          <p><strong>Q4:</strong> If I were to teach this topic to a classmate, how would I explain it?</p>
-          <p><strong>A:</strong> I’d explain that Cluster Meet is about teamwork, growth, and building school pride while having fun.</p>
-
-          <p><strong>Q5:</strong> Why is it important to have an event per subject?</p>
-          <p><strong>A:</strong> It gives students a platform to showcase talents, build confidence, and connect their learning to real experiences.</p>
-        </div>
-
-        <div class="event-media">
-          <img src="assets/images/event6a.jpg" alt="Cluster Meet Image 1" />
-          <img src="assets/images/event6b.jpg" alt="Cluster Meet Image 2" />
-          <video controls>
-            <source src="assets/videos/event6.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
     </div>
-  </section>
-</div>
 
-      </div>
+    <!-- Modal Dialog for Lessons -->
+    <div id="lesson-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body">
+                <!-- Lesson content will be loaded here -->
+            </div>
+        </div>
+    </div>
 
-      <!-- Footer -->
-      <footer id="custom-footer">
+    <!-- Footer -->
+    <footer id="custom-footer">
         <div class="contact-note">
-          <p>
-            For other questions and comments email info at
-            <span class="fake-email">cierapineda.lpsci@gmail.com</span><br />
-            <em>(fyi, this is just for show, please don’t actually email me-- Miss pa email po ng grade, ty po)</em>
-          </p>
+            <p>
+                For other questions and comments email info at
+                <span class="fake-email">cierapineda.lpsci@gmail.com</span><br />
+                <em>(fyi, this is just for show, please don't actually email me-- Miss pa email po ng grade, ty po)</em>
+            </p>
         </div>
 
         <form class="contact-form">
-          <input type="text" placeholder="Name" required />
-          <input type="email" placeholder="Email" required />
-          <input type="text" placeholder="Subject" />
-          <textarea placeholder="Message" rows="5"></textarea>
-          <button type="submit">SUBMIT</button>
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Subject" />
+            <textarea placeholder="Message" rows="5"></textarea>
+            <button type="submit">SUBMIT</button>
         </form>
 
-        <a href="#top" class="back-to-top">BACK TO TOP &gt;</a>
+        <a href="#top" class="back-to-top">BACK TO TOP ></a>
 
         <div class="footer-credits">
-          <p>Inspired by MY husband &lt;3</p>
-          <p>
-            This website was created by <strong>Allison Ciera Pineda</strong><br />
-            Thank you for checking this out!
-          </p>
-          <img src="assets/images/wander.gif" alt="Character Icon" class="footer-icon" />
-        </div>
-      </footer>
+            <p>Inspired by MY husband <3</p>
+            <p>
+                This website was created by <strong>Allison Ciera Pineda</strong><br />
+                Thank you for checking this out!
+            </p>
+            <img src="assets/images/wander.gif" alt="Character Icon" class="footer-icon" />
+        </footer>
 
-    </div>
-  </div>
+    <script>
+        // Lesson Content Data
+        const lessonContent = {
+            // Quarter 1 Lessons
+            'q1-lesson1': {
+                title: 'Lesson 1: Introduction to HTML Links',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 1: Introduction to HTML Links</h2>
+                        <p><strong> Prayer:</strong> Our Father who art in heaven, hallowed be thy name. Thy kingdom come, thy will be done, on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil. Amen.</p>
+                        <h3>Hyperlinks</h3>
+                        <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+                        <h4>Types of Links:</h4>
+                        <ul>
+                            <li><strong>Absolute URLs:</strong> The full web address including http:// (e.g., https://www.google.com)</li>
+                            <li><strong>Relative URLs:</strong> Links to pages within the same website (e.g., about.html)</li>
+                            <li><strong>Named Anchors:</strong> Links to specific sections within a page (e.g., #section1)</li>
+                        </ul>
+                        <h3>Attributes of <a></h3>
+                        <ul>
+                            <li><strong>href:</strong> Specifies the URL of the page the link goes to</li>
+                            <li><strong>target:</strong> Specifies where to open the linked document</li>
+                            <li><strong>name:</strong> Creates a named anchor for linking within the page</li>
+                        </ul>
+                        <h3>Target Attribute Values:</h3>
+                        <ul>
+                            <li><strong>_blank:</strong> Opens the link in a new window or tab</li>
+                            <li><strong>_self:</strong> Opens the link in the same frame (default)</li>
+                            <li><strong>_parent:</strong> Opens the link in the parent frame</li>
+                            <li><strong>_top:</strong> Opens the link in the full body of the window</li>
+                        </ul>
+                        <h3>Accessing Links:</h3>
+                        <ul>
+                            <li><strong>Pointer:</strong> Default cursor, click to follow link</li>
+                            <li><strong>Tab:</strong> Keyboard navigation through links</li>
+                            <li><strong>Access Key:</strong> Keyboard shortcut (Alt+letter) to activate link</li>
+                        </ul>
+                        <h3>States of Hyperlinks:</h3>
+                        <ul>
+                            <li><strong>link:</strong> Unvisited link (default blue)</li>
+                            <li><strong>visited:</strong> Already visited link (purple)</li>
+                            <li><strong>hover:</strong> Mouse over link (hand cursor)</li>
+                            <li><strong>active:</strong> Moment of click (red)</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Harry Potter Hyperlinks</h3>
+                            <pre>
+<!-- External Link -->
+<a href="https://www.wizardingworld.com/" target="_blank">Wizarding World</a>
+
+<!-- Internal Link -->
+<a href="about.html">About Us</a>
+
+<!-- Named Anchor -->
+<a href="#top">Back to Top</a>
+
+<!-- Access Key -->
+<a href="home.html" accesskey="h">Home (Alt+H)</a>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p><a href="#" style="color:blue;">Wizarding World</a> (opens in new tab)</p>
+                                <p><a href="#">About Us</a></p>
+                                <p><a href="#top">Back to Top</a></p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q1-lesson2': {
+                title: 'Lesson 2: Hyperlinks and Target Attributes',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 2: Hyperlinks and Target Attributes</h2>
+                        <p>This lesson covers more about hyperlinks including email links, external pages, and target attribute examples.</p>
+                        <h3>Email Links</h3>
+                        <p>Use mailto: to create links that open the user's email client.</p>
+                        <h3>Linking to External Pages</h3>
+                        <p>External links point to websites outside your own. Always use meaningful link text.</p>
+                        <h3>Target Attribute Examples:</h3>
+                        <ul>
+                            <li><strong>_self:</strong> Default. Opens in same window/tab</li>
+                            <li><strong>_blank:</strong> Opens in new window/tab</li>
+                            <li><strong>_parent:</strong> Opens in parent frame</li>
+                            <li><strong>_top:</strong> Opens in full body of window</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<!-- Email Link -->
+<a href="mailto:someone@example.com">Send Email</a>
+
+<!-- External Page -->
+<a href="https://www.pokemon.com/" target="_blank">Pokémon Official Site</a>
+
+<!-- Iframe Example -->
+<iframe src="page.html" name="iframe_example"></iframe>
+<a href="https://example.com" target="iframe_example">Load in Iframe</a>
+
+<!-- YouTube Link -->
+<a href="https://www.youtube.com/watch?v=example" target="_blank">Watch on YouTube</a>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p><a href="mailto:test@example.com" style="color:blue;">Send Email</a></p>
+                                <p><a href="https://www.pokemon.com/" target="_blank" style="color:blue;">Pokémon Official Site</a></p>
+                                <p><a href="https://www.youtube.com/" target="_blank" style="color:blue;">Watch on YouTube</a></p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q1-lesson3': {
+                title: 'Lesson 3: HTML Links and Forms',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 3: HTML Links and Forms</h2>
+                        <h3>Types of Links:</h3>
+                        <ul>
+                            <li><strong>External Links:</strong> Links to other websites</li>
+                            <li><strong>Internal Links:</strong> Links to pages within the same website</li>
+                            <li><strong>Dead Links:</strong> Links that don't lead anywhere (href="#")</li>
+                        </ul>
+                        <h3>Anchor Tag <a></h3>
+                        <p>The anchor tag creates hyperlinks to other web pages, files, email addresses, or any URL.</p>
+                        <h3>Using GIFs/Graphics as Links</h3>
+                        <p>You can wrap an image in an anchor tag to create a clickable image link.</p>
+                        <h3>Forms: Definition and Attributes</h3>
+                        <p>An HTML form is used to collect user input. It contains form elements like text fields, checkboxes, radio buttons, submit buttons, etc.</p>
+                        <h4>Form Attributes:</h4>
+                        <ul>
+                            <li><strong>action:</strong> Specifies where to send form data</li>
+                            <li><strong>method:</strong> Specifies HTTP method (GET or POST)</li>
+                            <li><strong>enctype:</strong> Specifies encoding type</li>
+                        </ul>
+                        <h3>Input Elements:</h3>
+                        <ul>
+                            <li><strong>Textbox:</strong> <input type="text"></li>
+                            <li><strong>Password:</strong> <input type="password"></li>
+                            <li><strong>Radio:</strong> <input type="radio"></li>
+                            <li><strong>Checkbox:</strong> <input type="checkbox"></li>
+                            <li><strong>Dropdown:</strong> <select> and <option></li>
+                            <li><strong>Textarea:</strong> <textarea></li>
+                            <li><strong>Submit:</strong> <input type="submit"></li>
+                            <li><strong>Reset:</strong> <input type="reset"></li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Links and Forms</h3>
+                            <pre>
+<!-- Image as Link -->
+<a href="https://www.pokemon.com/">
+    <img src="pikachu.gif" alt="Pokémon">
+</a>
+
+<!-- Dead Link -->
+<a href="#">This is a dead link</a>
+
+<!-- Form with keygen, datalist, output -->
+<form action="/submit" method="post">
+    <keygen name="security">
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+    </datalist>
+    <output name="result"></output>
+    <input type="submit">
+</form>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p><a href="#">Image would be clickable here</a></p>
+                                <p><a href="#">This is a dead link</a></p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q1-lesson4': {
+                title: 'Lesson 4: HTML5 Input Types',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 4: HTML5 Input Types</h2>
+                        <p>HTML5 introduced many new input types that provide better input control and validation.</p>
+                        <h3>HTML5 Input Type Tags:</h3>
+                        <ul>
+                            <li><strong>color:</strong> Color picker</li>
+                            <li><strong>date:</strong> Date picker</li>
+                            <li><strong>email:</strong> Email input</li>
+                            <li><strong>month:</strong> Month and year picker</li>
+                            <li><strong>datetime:</strong> Date and time picker</li>
+                            <li><strong>number:</strong> Numeric input</li>
+                            <li><strong>range:</strong> Slider control</li>
+                            <li><strong>search:</strong> Search field</li>
+                            <li><strong>time:</strong> Time picker</li>
+                            <li><strong>url:</strong> URL input</li>
+                            <li><strong>tel:</strong> Telephone number input</li>
+                        </ul>
+                        <h3>Form Attributes:</h3>
+                        <ul>
+                            <li><strong>autocomplete:</strong> Specifies whether form should have autocomplete on/off</li>
+                            <li><strong>novalidate:</strong> Specifies that form should not be validated</li>
+                        </ul>
+                        <h3>Input Attributes:</h3>
+                        <ul>
+                            <li><strong>autofocus:</strong> Specifies that input should automatically get focus</li>
+                            <li><strong>formaction:</strong> Overrides form action</li>
+                            <li><strong>formenctype:</strong> Overrides form encoding</li>
+                            <li><strong>formmethod:</strong> Overrides form method</li>
+                            <li><strong>formnovalidate:</strong> Overrides form novalidate</li>
+                            <li><strong>formtarget:</strong> Overrides form target</li>
+                            <li><strong>height/width:</strong> Specifies dimensions for image input</li>
+                            <li><strong>multiple:</strong> Allows multiple file uploads</li>
+                            <li><strong>pattern:</strong> Specifies regular expression for validation</li>
+                            <li><strong>placeholder:</strong> Shows hint text</li>
+                            <li><strong>required:</strong> Makes field mandatory</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Employee Form</h3>
+                            <pre>
+<form autocomplete="on">
+    Name: <input type="text" name="name" autofocus placeholder="Enter name" required><br>
+    Email: <input type="email" name="email" placeholder="Enter email"><br>
+    Color: <input type="color" name="color"><br>
+    Date: <input type="date" name="birthdate"><br>
+    Number: <input type="number" name="age" min="18" max="100"><br>
+    Range: <input type="range" name="rating" min="1" max="5"><br>
+    Search: <input type="search" name="search"><br>
+    URL: <input type="url" name="website"><br>
+    Tel: <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{4}"><br>
+    <input type="submit" formnovalidate="formnovalidate">
+</form>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <form onsubmit="return false;">
+                                    <input type="text" placeholder="Enter name" style="width:200px;margin:5px;"><br>
+                                    <input type="email" placeholder="Enter email" style="width:200px;margin:5px;"><br>
+                                    <input type="color" style="margin:5px;"> Color<br>
+                                    <input type="date" style="margin:5px;"><br>
+                                    <input type="submit" value="Submit" style="margin:5px;">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q1-lesson5': {
+                title: 'Lesson 5: Input Elements',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 5: Input Elements</h2>
+                        <p>This lesson covers the basic input element types and how to create textboxes and text areas.</p>
+                        <h3>Input Element <input> Types:</h3>
+                        <ul>
+                            <li><strong>text:</strong> Single-line text input</li>
+                            <li><strong>password:</strong> Password field (characters hidden)</li>
+                            <li><strong>checkbox:</strong> Square checkboxes for multiple selections</li>
+                            <li><strong>radio:</strong> Circular buttons for single selection</li>
+                            <li><strong>submit:</strong> Submit button</li>
+                            <li><strong>reset:</strong> Reset button</li>
+                            <li><strong>button:</strong> Generic button</li>
+                            <li><strong>file:</strong> File upload</li>
+                            <li><strong>image:</strong> Image as submit button</li>
+                            <li><strong>hidden:</strong> Hidden field</li>
+                        </ul>
+                        <h3>Input Attributes:</h3>
+                        <ul>
+                            <li><strong>name:</strong> Name of the input field</li>
+                            <li><strong>type:</strong> Type of input</li>
+                            <li><strong>size:</strong> Width of input field (characters)</li>
+                            <li><strong>value:</strong> Default value or label</li>
+                            <li><strong>checked:</strong> Pre-selected option (for radio/checkbox)</li>
+                        </ul>
+                        <h3>Creating Textboxes and Text Areas:</h3>
+                        <ul>
+                            <li><strong>Textbox:</strong> <input type="text" name="name"></li>
+                            <li><strong>Text Area:</strong> <textarea rows="4" cols="30"></textarea></li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Customer Survey</h3>
+                            <pre>
+<form>
+    <fieldset>
+        <legend>Customer Survey</legend>
+        Name: <input type="text" name="name" size="30"><br>
+        Username: <input type="text" name="username" size="20"><br>
+        Password: <input type="password" name="password" size="20"><br>
+        Comments:<br>
+        <textarea name="comments" rows="5" cols="30">Enter your comments here...</textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </fieldset>
+</form>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <form onsubmit="return false;">
+                                    <input type="text" placeholder="Name" style="width:200px;margin:5px;"><br>
+                                    <input type="text" placeholder="Username" style="width:150px;margin:5px;"><br>
+                                    <input type="password" placeholder="Password" style="width:150px;margin:5px;"><br>
+                                    <textarea placeholder="Comments" style="width:200px;margin:5px;"></textarea><br>
+                                    <input type="submit" value="Submit" style="margin:5px;">
+                                    <input type="reset" value="Reset" style="margin:5px;">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q1-lesson6': {
+                title: 'Lesson 6: Radio Buttons, Checkboxes & Dropdowns',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 6: Radio Buttons, Checkboxes & Dropdowns</h2>
+                        <h3>Radio Buttons:</h3>
+                        <p>Radio buttons allow the user to select ONLY ONE of a limited number of choices.</p>
+                        <h4>Attributes:</h4>
+                        <ul>
+                            <li><strong>name:</strong> Groups radio buttons together</li>
+                            <li><strong>value:</strong> Value sent to server</li>
+                            <li><strong>checked:</strong> Pre-selects an option</li>
+                        </ul>
+                        <h3>Checkboxes:</h3>
+                        <p>Checkboxes allow the user to select ZERO or MORE options of a limited number of choices.</p>
+                        <h4>Attributes:</h4>
+                        <ul>
+                            <li><strong>name:</strong> Name of the checkbox</li>
+                            <li><strong>value:</strong> Value sent to server</li>
+                            <li><strong>checked:</strong> Pre-selects the checkbox</li>
+                        </ul>
+                        <h3>Dropdown Menus:</h3>
+                        <p>Created using <select> and <option> tags.</p>
+                        <h4>Attributes for <select>:</h4>
+                        <ul>
+                            <li><strong>name:</strong> Name of the dropdown</li>
+                            <li><strong>size:</strong> Number of visible options</li>
+                        </ul>
+                        <h4>Attributes for <option>:</h4>
+                        <ul>
+                            <li><strong>value:</strong> Value sent to server</li>
+                            <li><strong>selected:</strong> Pre-selected option</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Customer Information Form</h3>
+                            <pre>
+<form>
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other" checked> Other
+    
+    <!-- Checkboxes -->
+    <p>Hobbies:</p>
+    <input type="checkbox" name="hobby" value="reading"> Reading<br>
+    <input type="checkbox" name="hobby" value="gaming" checked> Gaming<br>
+    <input type="checkbox" name="hobby" value="sports"> Sports
+    
+    <!-- Dropdown -->
+    <p>Country:</p>
+    <select name="country">
+        <option value="ph">Philippines</option>
+        <option value="us" selected>United States</option>
+        <option value="uk">United Kingdom</option>
+    </select>
+    
+    <!-- Multi-select Dropdown -->
+    <p>Favorite Foods:</p>
+    <select name="foods" multiple size="3">
+        <option value="pizza">Pizza</option>
+        <option value="burger">Burger</option>
+        <option value="sushi">Sushi</option>
+        <option value="pasta">Pasta</option>
+    </select>
+</form>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <form onsubmit="return false;">
+                                    <p style="margin:5px;"><strong>Gender:</strong></p>
+                                    <input type="radio" name="gender" value="male" style="margin:3px;"> Male<br>
+                                    <input type="radio" name="gender" value="female" style="margin:3px;"> Female<br>
+                                    <input type="radio" name="gender" value="other" checked style="margin:3px;"> Other
+                                    <p style="margin:5px;"><strong>Hobbies:</strong></p>
+                                    <input type="checkbox" name="hobby" value="reading" style="margin:3px;"> Reading<br>
+                                    <input type="checkbox" name="hobby" value="gaming" checked style="margin:3px;"> Gaming<br>
+                                    <input type="checkbox" name="hobby" value="sports" style="margin:3px;"> Sports
+                                    <p style="margin:5px;"><strong>Country:</strong></p>
+                                    <select style="margin:5px;">
+                                        <option>Philippines</option>
+                                        <option selected>United States</option>
+                                        <option>United Kingdom</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q1-lesson7': {
+                title: 'Lesson 7: Feedback Forms and File Upload',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 7: Feedback Forms and File Upload</h2>
+                        <h3>Feedback Form:</h3>
+                        <p>A feedback form allows users to submit comments or suggestions. The action attribute can use mailto: to send form data via email.</p>
+                        <h3>Form Attributes:</h3>
+                        <ul>
+                            <li><strong>action:</strong> Specifies URL where form data is sent</li>
+                            <li><strong>method:</strong> HTTP method (GET or POST)</li>
+                            <li><strong>enctype:</strong> Encoding type for form data</li>
+                        </ul>
+                        <h3>Submit Button <input type="submit"></h3>
+                        <p>Creates a button that submits the form to the server.</p>
+                        <h3>Reset Button <input type="reset"></h3>
+                        <p>Creates a button that resets all form fields to their default values.</p>
+                        <h3>File Upload <input type="file"></h3>
+                        <p>Creates a file upload control allowing users to select files.</p>
+                        <h3>Accept Attribute Values:</h3>
+                        <ul>
+                            <li><strong>file_extension:</strong> .pdf, .doc, .jpg</li>
+                            <li><strong>audio/*:</strong> All audio files</li>
+                            <li><strong>video/*:</strong> All video files</li>
+                            <li><strong>image/*:</strong> All image files</li>
+                            <li><strong>media_type:</strong> MIME type (e.g., image/png)</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - File Upload Form</h3>
+                            <pre>
+<form action="mailto:feedback@example.com" method="post" enctype="text/plain">
+    <h3>Feedback Form</h3>
+    Name: <input type="text" name="name"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Message:<br>
+    <textarea name="message" rows="5" cols="30"></textarea><br><br>
+    
+    <!-- File Upload -->
+    Upload File: <input type="file" name="myfile" accept=".jpg,.png,.pdf"><br><br>
+    
+    <!-- Accept Audio -->
+    Upload Audio: <input type="file" accept="audio/*"><br><br>
+    
+    <!-- Accept Image Only -->
+    Upload Image: <input type="file" accept="image/*"><br><br>
+    
+    <input type="submit" value="Send Feedback">
+    <input type="reset" value="Clear Form">
+</form>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <form onsubmit="return false;">
+                                    <input type="text" placeholder="Name" style="width:200px;margin:5px;"><br>
+                                    <input type="email" placeholder="Email" style="width:200px;margin:5px;"><br>
+                                    <textarea placeholder="Message" style="width:200px;margin:5px;"></textarea><br>
+                                    <p style="margin:5px;">Upload File:</p>
+                                    <input type="file" style="margin:5px;"><br>
+                                    <input type="submit" value="Send" style="margin:5px;">
+                                    <input type="reset" value="Clear" style="margin:5px;">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            // Quarter 2 Lessons
+            'q2-lesson1': {
+                title: 'Lesson 1: Introduction to CSS',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 1: Introduction to CSS</h2>
+                        <p>CSS stands for Cascading Style Sheets. It defines how HTML elements are displayed across different media. CSS separates content from design, making websites easier to maintain and more visually appealing.</p>
+                        <ul>
+                            <li>Controls layout across multiple pages</li>
+                            <li>Stored in external .css files</li>
+                            <li>Improves accessibility and responsiveness</li>
+                            <li>Supports layered webpage structure: Content (HTML), Presentation (CSS), Behavior (JavaScript)</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<link rel="stylesheet" href="styles.css">
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p>This links an external CSS file to your HTML.</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q2-lesson2': {
+                title: 'Lesson 2: Structure of CSS',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 2: Structure of CSS</h2>
+                        <p>CSS is made up of <strong>selectors</strong> and <strong>declarations</strong>. A declaration includes a property and its value, which define how an HTML element should appear.</p>
+                        <ul>
+                            <li><strong>Selector:</strong> Targets the HTML element to style (e.g., h1)</li>
+                            <li><strong>Property:</strong> The style attribute to modify (e.g., color)</li>
+                            <li><strong>Value:</strong> The setting applied to the property (e.g., blue)</li>
+                            <li><strong>Declaration:</strong> A single instruction like color: blue;</li>
+                            <li><strong>Declaration block:</strong> A group of declarations inside curly braces</li>
+                        </ul>
+                        <p>There are three types of CSS:</p>
+                        <ul>
+                            <li><strong>External:</strong> Linked via <link> tag and stored in a .css file</li>
+                            <li><strong>Embedded:</strong> Placed inside <style> tags in the HTML head</li>
+                            <li><strong>Inline:</strong> Written directly in the HTML tag using the style attribute</li>
+                        </ul>
+                        <p>Each type has its own use case, and they follow a priority order: Inline > Embedded > External.</p>
+                    </section>
+                `
+            },
+            'q2-lesson3': {
+                title: 'Lesson 3: Display Property and Layout',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 3: Display Property and Layout</h2>
+                        <p>The display property determines how HTML elements are arranged. Block elements stack vertically, while inline elements flow horizontally. Below is a live-style demo:</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  p.inline-demo {
+    display: inline;
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+  }
+</style>
+
+<h1>Display Property Demo</h1>
+<p class="inline-demo">Line 1</p>
+<p class="inline-demo">Line 2</p>
+<p class="inline-demo">Line 3</p>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <h1>Display Property Demo</h1>
+                                <p class="inline-demo">Line 1</p>
+                                <p class="inline-demo">Line 2</p>
+                                <p class="inline-demo">Line 3</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q2-lesson4': {
+                title: 'Lesson 4: CSS Classes and Selectors',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 4: CSS Classes and Selectors</h2>
+                        <p>CSS classes allow you to apply styles to specific elements using reusable names. You can target any HTML tag with a class, or be more specific by combining the tag and class name.</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  p.note {
+    background-color: lightyellow;
+    border-left: 4px solid orange;
+    padding: 10px;
+    font-style: italic;
+  }
+</style>
+
+<p>This paragraph has no class.</p>
+<p class="note">This paragraph uses the "note" class.</p>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p>This paragraph has no class.</p>
+                                <p class="note">This paragraph uses the "note" class.</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q2-lesson5': {
+                title: 'Lesson 5: CSS Selectors',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 5: CSS Selectors</h2>
+                        <p>CSS selectors target HTML elements based on tag name, class, ID, attributes, or combinations. Below is a demo using attribute and class selectors.</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  p[class] {
+    background-color: orange;
+  }
+  p[class="third"] {
+    color: blue;
+  }
+</style>
+
+<p class="first">This is the first paragraph.</p>
+<p>This paragraph doesn't have a class.</p>
+<p class="third">This is the third paragraph.</p>
+<p class="fourth">This is the fourth paragraph.</p>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p class="first">This is the first paragraph.</p>
+                                <p>This paragraph doesn't have a class.</p>
+                                <p class="third">This is the third paragraph.</p>
+                                <p class="fourth">This is the fourth paragraph.</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q2-lesson6': {
+                title: 'Lesson 6: Dimensions and Pseudo-Classes',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 6: Dimensions and Pseudo-Classes</h2>
+                        <p>CSS can control visibility, width, and height of elements. Pseudo-classes like :hover and :active add interactivity. Below is a demo showing both.</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  .hidden {
+    visibility: hidden;
+  }
+  .box {
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  a:link { color: red; }
+  a:visited { color: black; }
+  a:hover { color: green; }
+  a:active { color: blue; }
+</style>
+
+<div class="box">
+  This box is visible.
+  <span class="hidden">This span is hidden.</span>
+</div>
+
+<a href="#">Hover over me</a>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <div class="box">
+                                  This box is visible.
+                                  <span class="hidden">This span is hidden.</span>
+                                </div>
+                                <a href="#">Hover over me</a>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            // Quarter 3 Lessons
+            'q3-lesson1': {
+                title: 'Lesson 1: Formatting Text with CSS',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 1: Formatting Text with CSS</h2>
+                        <p>Typography in CSS refers to the styling and arrangement of text on a webpage. It is not just about choosing a font, but about ensuring that text is readable, visually appealing, and consistent across different devices.</p>
+                        <h3>Font Properties</h3>
+                        <p>The <b>font-family</b> property specifies the typeface used for text. You can list multiple fonts in order of preference.</p>
+                        <p>The <b>font-size</b> property controls how large or small the text appears. You can use fixed units like px or pt, or relative units like percentages.</p>
+                        <p>The <b>font-weight</b> property defines how bold or light the text should be.</p>
+                        <p>The <b>font-style</b> property lets you choose between normal, italic, or oblique text.</p>
+                        <p>The <b>font-variant</b> property allows you to use small-caps.</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  .family { font-family: Arial, sans-serif; }
+  .size { font-size: 24px; }
+  .weight { font-weight: bold; }
+  .style { font-style: italic; }
+  .variant { font-variant: small-caps; }
+</style>
+
+<p class="family">Font Family Example</p>
+<p class="size">Font Size Example</p>
+<p class="weight">Font Weight Example</p>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p style="font-family:Arial;">This text uses font-family</p>
+                                <p style="font-size:24px;">This text uses font-size</p>
+                                <p style="font-weight:bold;">This text uses font-weight</p>
+                                <p style="font-style:italic;">This text uses font-style</p>
+                                <p style="font-variant:small-caps;">This text uses font-variant</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q3-lesson2': {
+                title: 'Lesson 2: Formatting Text with CSS',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 2: Formatting Text with CSS</h2>
+                        <p>CSS allows you to format text beyond fonts. You can indent paragraphs, change text case, adjust line spacing, and add background colors to highlight text.</p>
+                        <h3>Key Properties</h3>
+                        <ul>
+                            <li><b>text-indent:</b> Indents the first line of a paragraph (px, %, em).</li>
+                            <li><b>text-transform:</b> Changes case (uppercase, lowercase, capitalize).</li>
+                            <li><b>line-height:</b> Controls spacing between lines.</li>
+                            <li><b>background:</b> Adds background color behind text.</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  p.indent { text-indent: 30px; }
+  h2.upper { text-transform: uppercase; text-align: center; }
+  p.spacing { line-height: 2; }
+  h1.bg { background: beige; color: red; font-weight: bold; text-align: center; }
+</style>
+
+<h1 class="bg">No Man Is An Island</h1>
+<h2 class="upper">Lazy John</h2>
+<p class="indent spacing">This paragraph is indented and has line spacing.</p>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <h1 style="background:beige;color:red;font-weight:bold;text-align:center;">No Man Is An Island</h1>
+                                <h2 style="text-transform:uppercase;text-align:center;">LAZY JOHN</h2>
+                                <p style="text-indent:30px;line-height:2;">This paragraph is indented and has line spacing.</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q3-lesson3': {
+                title: 'Lesson 3: Formatting Layout with CSS',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 3: Formatting Layout with CSS</h2>
+                        <p>CSS is not only about styling text and colors; it also controls how elements are arranged on a webpage. This is known as layout.</p>
+                        <h3>The Box Model</h3>
+                        <p>Every HTML element is treated as a box. The innermost part is the <b>content</b>, which holds text, images, or other elements. Surrounding the content is <b>padding</b>. The <b>border</b> wraps around the padding and content, and finally, the <b>margin</b> creates space between elements.</p>
+                        <h3>Positioning Elements</h3>
+                        <ul>
+                            <li><b>Static:</b> The default position, where elements appear in the normal document flow.</li>
+                            <li><b>Relative:</b> Positions the element relative to its normal location.</li>
+                            <li><b>Absolute:</b> Positions the element relative to its nearest positioned ancestor.</li>
+                            <li><b>Fixed:</b> Similar to absolute, but the element stays in place when scrolled.</li>
+                        </ul>
+                        <h3>Float Property</h3>
+                        <p>The float property allows elements to "float" to the left or right of their container.</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  div.left { width: 200px; float: left; background: lightblue; }
+  div.right { width: 200px; float: right; background: lightgreen; }
+</style>
+
+<div class="left">Left Content</div>
+<div class="right">Right Content</div>
+<p>This text wraps around floated elements.</p>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <div style="width:200px;float:left;background:lightblue;">Left Content</div>
+                                <div style="width:200px;float:right;background:lightgreen;">Right Content</div>
+                                <p>This text wraps around floated elements.</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q3-lesson4': {
+                title: 'Lesson 4: Formatting Borders & Tables',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 4: Formatting Borders & Tables</h2>
+                        <p>Borders and tables are essential in web design for organizing content and creating visual separation.</p>
+                        <h3>Borders</h3>
+                        <p>The <b>border-width</b> property controls how thick the border appears. The <b>border-color</b> property lets you choose colors. The <b>border-style</b> property defines how the border looks: solid, dashed, dotted, double, groove, ridge, inset, and outset.</p>
+                        <h3>Padding</h3>
+                        <p>Padding creates space between the content of an element and its border.</p>
+                        <h3>Tables</h3>
+                        <p>Tables are used to display structured information. CSS allows you to style tables by adding background colors, highlighting rows, or creating banners.</p>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code</h3>
+                            <pre>
+<style>
+  div.border-demo {
+    border-style: dashed;
+    border-color: red;
+    border-width: 3px;
+    padding: 20px;
+    background-color: #cccccc;
+  }
+  table { font-family: Arial; background-color: #eeeeee; }
+  tr.highlight { background-color: yellow; }
+  td.banner { background-color: #999999; color: #ffffff; font-size: 2em; text-align: center; border: solid red; }
+</style>
+
+<div class="border-demo">Border Example</div>
+<table border>
+  <tr><td colspan="2" class="banner">Visual Guide Series</td></tr>
+  <tr class="highlight"><td>Web Design</td><td>HTML, CSS</td></tr>
+  <tr><td>Office Productivity</td><td>Word, Excel</td></tr>
+</table>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <div style="border:3px dashed red;padding:20px;background:#cccccc;">Border Example</div>
+                                <table border style="font-family:Arial;background:#eeeeee;">
+                                    <tr><td colspan="2" style="background:#999999;color:#fff;font-size:2em;text-align:center;border:solid red;">Visual Guide Series</td></tr>
+                                    <tr style="background:yellow;"><td>Web Design</td><td>HTML, CSS</td></tr>
+                                    <tr><td>Office Productivity</td><td>Word, Excel</td></tr>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            // Quarter 4 Lessons - JavaScript
+            'q4-lesson1': {
+                title: 'Lesson 1: JavaScript Introduction',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 1: JavaScript Introduction</h2>
+                        <p>JavaScript is the most popular scripting language used to create dynamic and interactive web pages. It works in all major browsers and is an essential part of web development.</p>
+                        <h3>Purpose of JavaScript:</h3>
+                        <ul>
+                            <li>Create dynamic user experiences</li>
+                            <li>Render UI elements</li>
+                            <li>Load content in real-time</li>
+                            <li>Control video playback</li>
+                            <li>Track user activity</li>
+                        </ul>
+                        <h3>Static vs Dynamic Websites:</h3>
+                        <ul>
+                            <li><strong>Static:</strong> Delivered exactly as stored (e.g., portfolio websites)</li>
+                            <li><strong>Dynamic:</strong> Interacts with users, displays different content (e.g., social media)</li>
+                        </ul>
+                        <h3>History of JavaScript:</h3>
+                        <p>Developed by Brendan Eich in 1995 while working at Netscape. Originally called Mocha, then LiveScript, finally renamed to JavaScript. Now licensed by Oracle and used by Mozilla.</p>
+                        <h3>Characteristics:</h3>
+                        <ul>
+                            <li>Client-side scripting language</li>
+                            <li>Interpreted (not compiled)</li>
+                            <li>High-level programming language</li>
+                            <li>Object-oriented</li>
+                            <li>Case-sensitive</li>
+                            <li>Semi-colons are optional</li>
+                            <li>Reacts to events</li>
+                            <li>Validates forms before server submission</li>
+                            <li>Creates cookies for user preferences</li>
+                        </ul>
+                        <h3>Events:</h3>
+                        <p>Mouse clicks, page pre-loading, keyboard strokes, form events</p>
+                        <h3>Disadvantages:</h3>
+                        <ul>
+                            <li>Not supported by all browsers</li>
+                            <li>Potential for malicious scripts</li>
+                            <li>Source code is exposed</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Hello World</h3>
+                            <pre>
+<script>
+    document.write("Hello World!");
+</script>
+
+<!-- Or using console -->
+<script>
+    console.log("Hello World!");
+</script>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p>Hello World! (displays on page)</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q4-lesson2': {
+                title: 'Lesson 2: Where to Place Scripts',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 2: Where to Place Scripts</h2>
+                        <p>JavaScript can be placed in various locations within your HTML document. The placement affects when the script executes.</p>
+                        <h3>Script Placement Options:</h3>
+                        <ul>
+                            <li><strong>In <head>:</strong> Pre-loaded, executed before page events</li>
+                            <li><strong>In <body>:</strong> Executed when page loads</li>
+                            <li><strong>External .js file:</strong> Linked with src attribute</li>
+                        </ul>
+                        <h3>External JavaScript:</h3>
+                        <p>Save JavaScript in a separate .js file and link it using the src attribute.</p>
+                        <h3>Comments in JavaScript:</h3>
+                        <ul>
+                            <li><strong>Single-line:</strong> // comment</li>
+                            <li><strong>Multi-line:</strong> /* comment */</li>
+                        </ul>
+                        <h3>Syntax Rules:</h3>
+                        <ul>
+                            <li>Case-sensitive (myHome ≠ MyHome)</li>
+                            <li>White space is ignored but improves readability</li>
+                            <li>Use backslash \\ carefully for line breaks</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Script Placement</h3>
+                            <pre>
+<!-- In Head -->
+<head>
+    <script src="external.js"></script>
+</head>
+
+<!-- In Body -->
+<body>
+    <script>
+        document.write("Loaded!");
+    </script>
+</body>
+
+<!-- External File (external.js) -->
+function myFunction() {
+    alert("Hello!");
+}
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p>Scripts execute based on placement</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q4-lesson3': {
+                title: 'Lesson 3: Characteristics of JavaScript',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 3: Characteristics of JavaScript</h2>
+                        <h3>Key Concepts:</h3>
+                        <ul>
+                            <li><strong>Interpreted:</strong> Requires browser to run</li>
+                            <li><strong>Scripting Language:</strong> Performs repetitive tasks, modifies webpage elements</li>
+                            <li><strong>Client-side:</strong> Runs on user's machine</li>
+                            <li><strong>Object-Oriented:</strong> Treats elements as objects with methods and properties</li>
+                        </ul>
+                        <h3>JavaScript Objects:</h3>
+                        <ul>
+                            <li><strong>Window:</strong> location, open, setTimeout</li>
+                            <li><strong>Document:</strong> fgColor, cookie, write, lastModified</li>
+                            <li><strong>Math:</strong> PI, pow, max, min</li>
+                            <li><strong>Navigator:</strong> appName, appVersion, cookieEnabled, platform</li>
+                        </ul>
+                        <h3>Data Types:</h3>
+                        <ul>
+                            <li>Integer (whole numbers)</li>
+                            <li>Float (decimal numbers)</li>
+                            <li>String (text in quotes)</li>
+                            <li>Boolean (true/false)</li>
+                            <li>Function</li>
+                            <li>Object</li>
+                            <li>Array</li>
+                            <li>Undefined</li>
+                            <li>Null</li>
+                        </ul>
+                        <h3>Variables:</h3>
+                        <p>Declared with var keyword. Naming rules: letters, digits, underscore; no spaces/punctuation; case-sensitive.</p>
+                        <h3>Syntax Rules:</h3>
+                        <ul>
+                            <li>Use <script language="javascript"></li>
+                            <li>Case-sensitive</li>
+                            <li>Processed top to bottom</li>
+                            <li>Quotes for strings</li>
+                            <li>Comments: // or /* */</li>
+                            <li>Concatenation with +</li>
+                            <li>Semicolons optional but recommended</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Variables</h3>
+                            <pre>
+<script>
+    var name = "Ciera";
+    var age = 15;
+    var isStudent = true;
+    
+    document.write("Name: " + name);
+    document.write("Age: " + age);
+</script>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <p>Name: Ciera<br>Age: 15</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            },
+            'q4-lesson4': {
+                title: 'Lesson 4: Events, Popup Boxes & Variables',
+                content: `
+                    <section class="lesson-detail">
+                        <h2>Lesson 4: Events, Popup Boxes & Variables</h2>
+                        <h3>Events:</h3>
+                        <p>Events are triggered by user actions. Common event attributes:</p>
+                        <ul>
+                            <li>onclick, ondblclick</li>
+                            <li>onload, onunload</li>
+                            <li>onmouseover, onmouseout</li>
+                            <li>onkeydown, onkeypress, onkeyup</li>
+                            <li>onfocus, onblur</li>
+                            <li>onsubmit, onreset</li>
+                        </ul>
+                        <h3>Popup Boxes:</h3>
+                        <ul>
+                            <li><strong>Alert:</strong> alert("message")</li>
+                            <li><strong>Prompt:</strong> prompt("message","default")</li>
+                            <li><strong>Confirm:</strong> confirm("message")</li>
+                        </ul>
+                        <h3>Variables:</h3>
+                        <p>Temporary storage for values. Can hold numbers, strings, Boolean values.</p>
+                        <h3>Operators:</h3>
+                        <ul>
+                            <li><strong>Arithmetic:</strong> +, -, *, /, %, ++, --</li>
+                            <li><strong>Comparison:</strong> ==, ===, !=, !==, >, <, >=, <=</li>
+                            <li><strong>Logical:</strong> &&, ||, !</li>
+                        </ul>
+                        <h3>Conditional Statements:</h3>
+                        <ul>
+                            <li>if</li>
+                            <li>if-else</li>
+                            <li>if-else if-else</li>
+                            <li>switch</li>
+                        </ul>
+                    </section>
+                    <section class="code-demo">
+                        <div class="code-box">
+                            <h3>Sample Code - Events and Popups</h3>
+                            <pre>
+<!-- Popup Example -->
+<script>
+    function showAlert() {
+        alert("Hello!");
+    }
+    
+    function askName() {
+        var name = prompt("What is your name?");
+        alert("Welcome, " + name);
+    }
+    
+    function confirmAction() {
+        confirm("Are you sure?");
+    }
+</script>
+
+<button onclick="showAlert()">Click Me</button>
+<button onclick="askName()">Ask Name</button>
+
+<!-- Conditional Statement -->
+<script>
+    var age = 15;
+    if (age >= 18) {
+        alert("Adult");
+    } else {
+        alert("Minor");
+    }
+</script>
+                            </pre>
+                        </div>
+                        <div class="output-box">
+                            <h3>Output Preview</h3>
+                            <div class="demo-display">
+                                <button onclick="alert('Hello!')">Click Me</button>
+                                <p>Buttons trigger popup boxes</p>
+                            </div>
+                        </div>
+                    </section>
+                `
+            }
+        };
+
+        // Modal functionality
+        const modal = document.getElementById('lesson-modal');
+        const modalBody = document.getElementById('modal-body');
+        const closeBtn = document.querySelector('.modal-close');
+        const lessonCards = document.querySelectorAll('.lesson-card');
+
+        // Open modal when clicking a lesson card
+        lessonCards.forEach(card => {
+            card.addEventListener('click', function(e) {
+                e.preventDefault();
+                const lessonId = this.getAttribute('data-lesson');
+                const lesson = lessonContent[lessonId];
+                
+                if (lesson) {
+                    modalBody.innerHTML = `
+                        <h2>${lesson.title}</h2>
+                        ${lesson.content}
+                    `;
+                    modal.style.display = 'block';
+                    document.body.style.overflow = 'hidden';
+                }
+            });
+        });
+
+        // Close modal
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', function(e) {
+            if (e.target == modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
 </body>
 </html>
+
