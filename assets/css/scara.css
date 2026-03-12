@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: 'Genshin Impact', "Georgia", serif;
+font-family: 'Genshin Impact', serif;
     background: #1e252d;
     color: #fff;
     line-height: 1.6;
@@ -60,11 +60,7 @@ body {
   background-size: cover;
   color: white;
   padding: 20px;
-  font-family: 'Genshin Impact', 'Segoe UI', sans-serif;
-}
-
-
-.navbar-container {
+  font-family: 'Genshin Impact', serif;\n}\n\n\n.navbar-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -335,12 +331,7 @@ section {
 #custom-footer {
   background-color: #0b1d3a;
   color: #cce6ff;
-  padding: 40px 20px;
-  font-family: 'Genshin Impact', 'Segoe UI', sans-serif;
-  text-align: center;
-}
-
-.contact-note {
+  padding: 40px 20px;\n  font-family: 'Genshin Impact', serif;\n  text-align: center;\n}\n\n.contact-note {
   margin-bottom: 20px;
   font-size: 14px;
 }
@@ -496,13 +487,7 @@ section {
         object-fit: cover;
         border-radius: 8px;
     }
-#favourite-characters h2 {
-  text-align: center;
-  font-family: 'Genshin Impact', 'Papyrus', fantasy;
-  color: #6a4fb3;
-}
-
-/* Sponsor Header Section */
+#favourite-characters h2 {\n  text-align: center;\n  font-family: 'Genshin Impact', serif;\n  color: #6a4fb3;\n}\n\n/* Sponsor Header Section */
 #section-sponsor-header {
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
@@ -1177,16 +1162,7 @@ section {
     color: #fff;
 }
 
-#my-poem h2 {
-    text-align: center;
-    color: #fff;
-    font-family: 'Genshin Impact', 'Papyrus', fantasy;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-.poem-container {
+#my-poem h2 {\n    text-align: center;\n    color: #fff;\n    font-family: 'Genshin Impact', serif;\n    font-size: 2.5rem;\n    margin-bottom: 40px;\n    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.poem-container {
     max-width: 800px;
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.1);
@@ -1204,15 +1180,7 @@ section {
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
-.poem-header h3 {
-    font-size: 1.8rem;
-    color: #d4e3ff;
-    margin-bottom: 15px;
-    font-family: 'Georgia', serif;
-    letter-spacing: 1px;
-}
-
-.poem-author {
+.poem-header h3 {\n    font-size: 1.8rem;\n    color: #d4e3ff;\n    margin-bottom: 15px;\n    font-family: 'Genshin Impact', serif;\n    letter-spacing: 1px;\n}\n\n.poem-author {
     font-size: 1.1rem;
     color: #a8c5e8;
     margin: 8px 0;
@@ -1236,14 +1204,7 @@ section {
     line-height: 2;
 }
 
-.poem-content p {
-    margin: 20px 0;
-    font-size: 1.1rem;
-    color: #e8f0f8;
-    font-family: 'Georgia', serif;
-}
-
-.poem-content p:first-of-type {
+.poem-content p {\n    margin: 20px 0;\n    font-size: 1.1rem;\n    color: #e8f0f8;\n    font-family: 'Genshin Impact', serif;\n}\n\n.poem-content p:first-of-type {
     margin-top: 0;
 }
 
@@ -1272,22 +1233,7 @@ section {
     margin-top: 0;
 }
 
-.genshin-quote {
-    font-family: 'Genshin Impact', 'Georgia', serif;
-    font-size: 1.8rem;
-    color: #e8f0f8;
-    font-style: italic;
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    border-left: 4px solid #6a4fb3;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-}
-
-.genshin-quote cite {
+.genshin-quote {\n    font-family: 'Genshin Impact', serif;\n    font-size: 1.8rem;\n    color: #e8f0f8;\n    font-style: italic;\n    line-height: 1.6;\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 30px;\n    background: rgba(255, 255, 255, 0.1);\n    border-radius: 15px;\n    border-left: 4px solid #6a4fb3;\n    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n\n.genshin-quote cite {
     display: block;
     margin-top: 20px;
     font-size: 1.2rem;
